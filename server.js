@@ -3,7 +3,7 @@ const express = require('express');
 const session = require('express-session');
 // const exphbs = require('express-handlebars');
 const routes = require('./controllers');
-const helpers = require('./utils/helpers');
+// const helpers = require('./utils/helpers');
 
 // Import db connection
 const sequelize = require('./config/connection');
@@ -47,7 +47,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static files (import CSS file)
-app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'public')));
 
 // Connect to routes in controller folder
 app.use(routes);
