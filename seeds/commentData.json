@@ -1,11 +1,14 @@
 [
     {
-      "content_body": "Good review!"
+      "name": "Jeff",
+      "comment_body": "Good review!"
     },
     {
-      "content_body": "Why does apple add this to my catalog automatically"
+      "name": "Gabi",
+      "comment_body": "Why does apple add this to my catalog automatically"
     },
     {
-      "content_body": "M&Ms are good"
+      "name": "John",
+      "comment_body": "M&Ms are good"
     }
   ]
